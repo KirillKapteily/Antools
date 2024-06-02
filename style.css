@@ -1,5 +1,6 @@
 :root{
 --accent-color: #ff6e30;
+--input-color: #283036;
 }
 
 
@@ -24,6 +25,97 @@ text-decoration: none;
 .header-list{
     display: flex;
     gap: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -80px;
+}
+
+.header-list-log{
+    display: flex;
+    gap: 30px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.load-more-button{
+    box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 8px;
+background: rgb(30, 37, 43);
+color: var(--accent-color);
+width: 184px;
+height: 64px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+}
+
+.visit-button{
+    width: 106px;
+height: 42px;
+border-radius: 8px;
+background-color:rgb(30, 37, 43);
+border: none;
+color: rgba(255, 255, 255, 0.55);
+}
+
+.brands-sub{
+    border-radius: 25px;
+backdrop-filter: blur(50px);
+background: rgba(44, 53, 61, 0.2);
+width: 1224px;
+height: 253px;
+justify-content: center;
+margin: 0 auto;
+}
+
+.search-button{
+    margin-left: -150px;
+    width: 130.43px;
+height: 48px;
+    border-radius: 8px;
+    border-color: var(--accent-color);
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.header-input{
+    width: 497.66px;
+    height: 64px;
+    background-color: var(--input-color);
+    color: rgba(255, 255, 255, 0.38);
+    border-radius: 15px;
+    border: #283036;
+}
+
+.footer-input{
+    width: 497.66px;
+    height: 64px;
+    background-color: var(--input-color);
+    color: rgba(255, 255, 255, 0.38);
+    border-radius: 15px;
+    border: #283036;
+}
+
+
+
+.joinus-button{
+    margin-left: -150px;
+    width: 130.43px;
+height: 48px;
+    border-radius: 8px;
+    border-color: var(--accent-color);
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.ilustratin{
+    background-image: url("images/ilust.png");
+    background-repeat: no-repeat;
+    background-position: right;
+
 }
 
 .sign-up{
@@ -52,6 +144,7 @@ line-height: 140%;
 letter-spacing: 0%;
 color: white;
 text-align: left;
+
 }
 
 .main-par{
@@ -62,10 +155,45 @@ font-weight: 400;
 line-height: 30px;
 letter-spacing: 0%;
 text-align: left;
+margin-bottom: 60px;
 }
 
 .main-list{
     list-style: none;
+    display: flex;
+    gap: 8px;
+}
+
+.pop-tool-list{
+display: flex;
+flex-wrap: wrap;
+gap:25px;
+}
+
+.explore-more-button{
+    width: 198px;
+height: 58px;
+border: none;
+color: rgb(255, 255, 255);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+border-radius: 8px;
+background-color: var(--accent-color);
+}
+
+.trus-brands-list{
+    padding-top: 10px;
+display: flex;
+justify-content: center;
+margin: 0 auto;
+
+gap:107px;
+}
+
+.trus-brands-item{
+    list-style: none;
+    
 }
 
 body{
@@ -74,12 +202,28 @@ body{
 
 .main-titlee{
     color: rgba(255, 255, 255, 0.9);
-font-family: Poppins;
+font-family: "Poppins";
 font-size: 48px;
 font-weight: 500;
 line-height: 130%;
 letter-spacing: 0%;
 text-align: center;
+}
+
+.main-para12{
+    color: rgba(255, 255, 255, 0.55);
+font-family: "Poppins";
+font-size: 18px;
+font-weight: 500;
+line-height: 30px;
+}
+
+.main-titlee3{
+    color: rgba(255, 255, 255, 0.9);
+font-family: "Poppins";
+font-size: 48px;
+font-weight: 500;
+line-height: 130%;
 }
 
 .main-para{
@@ -94,19 +238,34 @@ text-align: center;
 
 .card-title{
     color: rgba(255, 255, 255, 0.78);
-font-family: Poppins;
+font-family: "Poppins";
 font-size: 24px;
 font-weight: 500;
 line-height: 36px;
 letter-spacing: 0%;
 }
 
+.card-title2{
+    color: rgba(255, 255, 255, 0.78);
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
  .card-par{
 color: rgba(255, 165, 55, 0.55);
-font-family: Poppins;
+font-family: "Poppins";
 font-size: 18px;
 font-weight: 400;
-line-height: 27px;
+ }
+
+ .card-par2{
+    color: rgba(255, 165, 55, 0.55);
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+
  }
 
  .card-desctip{
@@ -114,19 +273,41 @@ line-height: 27px;
 font-family: "Poppins";
 font-size: 16px;
 font-weight: 400;
-line-height: 30px;
+
+ }
+
+ .card-desctip2{
+    color: rgba(255, 255, 255, 0.55);
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    
+ }
+
+.newcomer-tools{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+ .newcomer-tools-item{
+    width: 288px;
+height: 284px;
  }
 
  .pop-tool-item{
     width: 392px;
 height: 294px;
+list-style: none;
  }
 
  .main-titlee2{
     color: rgba(255, 255, 255, 0.8);
 font-family: "Poppins";
 font-size: 24px;
+
 font-weight: 500;
+text-align: center;
  }
 
  .name{
@@ -181,4 +362,5 @@ text-decoration: none;
 
  .footer-list{
     list-style: none;
+    
  }
