@@ -1,0 +1,184 @@
+:root{
+--accent-color: #ff6e30;
+}
+
+
+.antools{
+    color: rgba(255, 255, 255, 0.9);
+font-family: "Poppins";
+font-size: 22px;
+font-weight: 600;
+text-align: left;
+text-decoration: none;
+}
+
+.header-link{
+    color: rgba(255, 255, 255, 0.78);
+font-family: "Poppins";
+font-size: 16px;
+font-weight: 600;
+list-style: none;
+text-decoration: none;
+}
+
+.header-list{
+    display: flex;
+    gap: 30px;
+}
+
+.sign-up{
+    color: rgb(253, 245, 255);
+font-family: "Poppins";
+font-size: 16px;
+font-weight: 600;
+border-radius: 8px;
+background: var(--accent-color);
+}
+
+.login{
+    color: rgba(255, 255, 255, 0.78);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+}
+
+.main-title{
+    font-family: "Poppins";
+font-size: 50px;
+font-weight: 500;
+line-height: 140%;
+letter-spacing: 0%;
+color: white;
+text-align: left;
+}
+
+.main-par{
+    color: rgba(255, 255, 255, 0.55);
+font-family: "Poppins";
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.main-list{
+    list-style: none;
+}
+
+body{
+    background: rgb(30, 37, 43);
+}
+
+.main-titlee{
+    color: rgba(255, 255, 255, 0.9);
+font-family: Poppins;
+font-size: 48px;
+font-weight: 500;
+line-height: 130%;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.main-para{
+    color: rgba(255, 255, 255, 0.55);
+font-family: "Poppins";
+font-size: 18px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.card-title{
+    color: rgba(255, 255, 255, 0.78);
+font-family: Poppins;
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0%;
+}
+
+ .card-par{
+color: rgba(255, 165, 55, 0.55);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+ }
+
+ .card-desctip{
+    color: rgba(255, 255, 255, 0.55);
+font-family: "Poppins";
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+ }
+
+ .pop-tool-item{
+    width: 392px;
+height: 294px;
+ }
+
+ .main-titlee2{
+    color: rgba(255, 255, 255, 0.8);
+font-family: "Poppins";
+font-size: 24px;
+font-weight: 500;
+ }
+
+ .name{
+    color: rgba(255, 253, 253, 0.78);
+    font-family: "Poppins";
+    font-size: 26px;
+    font-weight: 500;
+ }
+
+ .worker{
+    color: rgba(255, 253, 253, 0.55);
+font-family: "Poppins";
+font-size: 16px;
+font-weight: 400;
+ }
+
+ .work-des{
+    color: rgba(255, 255, 255, 0.78);
+font-family: "Roboto";
+font-size: 14px;
+font-weight: 400;
+ }
+
+ .footer-font-i{
+    color: rgba(255, 255, 255, 0.9);
+font-family: "Poppins";
+font-size: 20px;
+font-weight: 500;
+ }
+
+ .footer-desc{
+    color: rgba(255, 255, 255, 0.55);
+font-family: "Poppins";
+font-size: 14px;
+font-weight: 400;
+ }
+
+ .copyright{
+    color: rgba(255, 255, 255, 0.9);
+font-family: "Poppins";
+font-size: 16px;
+font-weight: 500;
+ }
+
+ .footer-link{
+    color: rgba(255, 255, 255, 0.55);
+font-family: "Poppins";
+font-size: 16px;
+font-weight: 500;
+text-decoration: none;
+ }
+
+ .footer-list{
+    list-style: none;
+ }
