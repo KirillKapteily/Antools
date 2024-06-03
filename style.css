@@ -28,6 +28,7 @@ text-decoration: none;
     display: flex;
     justify-content: center;
     margin-bottom: -80px;
+    
 }
 
 .header-list-log{
@@ -88,6 +89,10 @@ height: 48px;
     color: rgba(255, 255, 255, 0.38);
     border-radius: 15px;
     border: #283036;
+}
+
+footer{
+    margin-top: 240px;
 }
 
 .footer-input{
@@ -161,13 +166,15 @@ margin-bottom: 60px;
 .main-list{
     list-style: none;
     display: flex;
-    gap: 8px;
+    gap: 16px;
 }
 
 .pop-tool-list{
 display: flex;
+padding-left: 0px;
 flex-wrap: wrap;
 gap:25px;
+margin-bottom: 200px;
 }
 
 .explore-more-button{
@@ -191,8 +198,14 @@ margin: 0 auto;
 gap:107px;
 }
 
+.band-wrap{
+    padding-top: 55px;
+    margin-top: 100px;
+}
+
 .trus-brands-item{
     list-style: none;
+    margin-bottom: 55px;
     
 }
 
@@ -205,6 +218,7 @@ body{
 font-family: "Poppins";
 font-size: 48px;
 font-weight: 500;
+margin-top: 200px;
 line-height: 130%;
 letter-spacing: 0%;
 text-align: center;
@@ -224,6 +238,7 @@ font-family: "Poppins";
 font-size: 48px;
 font-weight: 500;
 line-height: 130%;
+margin-top: 100px;
 }
 
 .main-para{
@@ -232,6 +247,7 @@ font-family: "Poppins";
 font-size: 18px;
 font-weight: 500;
 line-height: 30px;
+margin-bottom: 90px;
 letter-spacing: 0%;
 text-align: center;
 }
@@ -243,6 +259,12 @@ font-size: 24px;
 font-weight: 500;
 line-height: 36px;
 letter-spacing: 0%;
+
+}
+
+.email-center{
+    display: flex;
+    justify-content: center;
 }
 
 .card-title2{
@@ -288,6 +310,7 @@ font-weight: 400;
     display: flex;
     flex-wrap: wrap;
     list-style: none;
+    margin-bottom: 200px;
 }
 
  .newcomer-tools-item{
@@ -296,6 +319,7 @@ height: 284px;
  }
 
  .pop-tool-item{
+    outline: #ff6e30 0.1px solid;
     width: 392px;
 height: 294px;
 list-style: none;
@@ -362,5 +386,11 @@ text-decoration: none;
 
  .footer-list{
     list-style: none;
-    
+    padding-left: 0px;
+ }
+
+ .container{
+    width: 1224px;
+    margin: 0 auto;
+    outline: solid red;
  }
