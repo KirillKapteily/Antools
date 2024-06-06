@@ -1,8 +1,13 @@
 :root{
 --accent-color: #ff6e30;
 --input-color: #283036;
+--background-color: #1e252b;
+--not-active-button: #1e252b;
 }
 
+header {
+    display: flex;
+  }
 
 .antools{
     color: rgba(255, 255, 255, 0.9);
@@ -11,6 +16,8 @@ font-size: 22px;
 font-weight: 600;
 text-align: left;
 text-decoration: none;
+display: flex;
+align-items: center;
 }
 
 .header-link{
@@ -23,23 +30,35 @@ text-decoration: none;
 }
 
 .header-list{
-    list-style: none;
+    /* list-style: none;
   display: flex;
   justify-content: center;
   gap: 50px;
   margin-right: auto;
   position: absolute;
 margin-left: 350px;
-top: 38px;
+top: 38px; */
+list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-right: auto;
+  width: 676px;
 }
 
 .header-list-log{
     list-style: none;
+  display: flex;
+  gap: 50px;
+  margin-left: auto;
+  justify-content: space-between;
+    /* list-style: none;
     display: flex;
     gap: 50px;
     margin-bottom: 100px;
     margin-left: auto;
-    justify-content: flex-end;  
+    justify-content: flex-end;   */
     
 }
 
@@ -57,12 +76,18 @@ align-items: center;
 margin: 0 auto;
 }
 
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
 .visit-button{
     width: 106px;
 height: 42px;
-
+margin-top: 33px;
+margin-left: 140px;
 border-radius: 8px;
-background-color:rgb(30, 37, 43);
+background-color:#1e252b;
 border: none;
 color: rgba(255, 255, 255, 0.55);
 }
@@ -70,7 +95,7 @@ color: rgba(255, 255, 255, 0.55);
 .brands-sub{
     border-radius: 25px;
 backdrop-filter: blur(50px);
-background: rgba(44, 53, 61, 0.2);
+background: #2c353d33;
 width: 1224px;
 height: 253px;
 justify-content: center;
@@ -81,6 +106,7 @@ margin: 0 auto;
     margin-left: -150px;
     width: 130.43px;
 height: 48px;
+border-style: none;
     border-radius: 8px;
     border-color: var(--accent-color);
     background-color: var(--accent-color);
@@ -115,10 +141,14 @@ footer{
     margin-left: -150px;
     width: 130.43px;
 height: 48px;
+border-style: none;
+
+margin-top: 8px;
     border-radius: 8px;
     border-color: var(--accent-color);
     background-color: var(--accent-color);
     color: white;
+    align-items: center;
 }
 
 .ilustratin{
@@ -129,6 +159,9 @@ height: 48px;
 }
 
 .sign-up{
+    width: 118px;
+height: 48px;
+border-style: none;
     color: rgb(253, 245, 255);
 font-family: "Poppins";
 font-size: 16px;
@@ -137,9 +170,18 @@ border-radius: 8px;
 background: var(--accent-color);
 }
 
+.point{
+    color: var(--accent-color);
+}
+
 .login{
     color: rgba(255, 255, 255, 0.78);
 font-family: Poppins;
+background-color: var(--not-active-button);
+width: 118px;
+height: 48px;
+border-style: none;
+border-radius: 8px;
 font-size: 16px;
 font-weight: 600;
 line-height: 24px;
@@ -225,7 +267,7 @@ gap:107px;
 }
 
 body{
-    background: rgb(30, 37, 43);
+    background: #1e252b;
 }
 
 .main-titlee{
@@ -263,8 +305,7 @@ font-size: 18px;
 font-weight: 500;
 line-height: 30px;
 margin-bottom: 90px;
-letter-spacing: 0%;
-text-align: center;
+
 }
 
 .card-title{
@@ -273,8 +314,8 @@ font-family: "Poppins";
 font-size: 24px;
 font-weight: 500;
 line-height: 36px;
-letter-spacing: 0%;
-
+display: flex;
+flex-wrap: wrap;
 }
 
 .email-center{
@@ -295,6 +336,9 @@ color: rgba(255, 165, 55, 0.55);
 font-family: "Poppins";
 font-size: 18px;
 font-weight: 400;
+display: flex;
+flex-wrap: wrap;
+
  }
 
  .card-par2{
@@ -329,8 +373,9 @@ font-weight: 400;
 }
 
  .newcomer-tools-item{
-    width: 288px;
-height: 284px;
+    width: 392px;
+height: 294px;
+margin-bottom: 50px;
  }
 
  .pop-tool-item{
@@ -338,7 +383,18 @@ height: 284px;
     width: 392px;
 height: 334px;
 list-style: none;
+
  }
+
+.mainn-para{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.55);
+font-family: "Poppins";
+font-size: 18px;
+font-weight: 500;
+line-height: 30px;
+margin-bottom: 90px;
+}
 
  .main-titlee2{
     color: rgba(255, 255, 255, 0.8);
@@ -402,6 +458,7 @@ text-decoration: none;
  .footer-list{
     list-style: none;
     padding-left: 0px;
+
  }
 
  .container{
