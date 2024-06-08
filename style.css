@@ -48,6 +48,13 @@ top: 38px; */
 
 }
 
+.imgh{
+    display: block;
+    width: 19.38px;
+height: 20.95px;
+margin-right: 21px;
+}
+
 .header-list-log {
     list-style: none;
     display: flex;
