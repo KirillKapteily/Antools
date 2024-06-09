@@ -48,11 +48,15 @@ top: 38px; */
 
 }
 
-.imgh{
+.imgf {
+    margin-right: 12px;
+}
+
+.imgh {
     display: block;
     width: 19.38px;
-height: 20.95px;
-margin-right: 21px;
+    height: 20.95px;
+    margin-right: 21px;
 }
 
 .header-list-log {
@@ -89,16 +93,45 @@ margin-right: 21px;
     justify-content: space-between;
 }
 
+.card-immg{
+    display: block;
+}
+
+.card-actions {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    outline: #ff6e30 solid 1px;
+}
+
+
+.card-actions-2{
+    gap: 20px;
+display: flex;
+align-items: center;
+outline: #ff6e30 solid 1px;
+}
+
 .visit-button {
     width: 106px;
     height: 42px;
-    margin-top: 33px;
     margin-left: 140px;
     border-radius: 8px;
     background-color: #1e252b;
     border: none;
     color: rgba(255, 255, 255, 0.55);
 }
+
+.visit-button-2{
+  width: 106px;
+    height: 42px;
+    margin-left: 50px;
+    border-radius: 8px;
+    background-color: #1e252b;
+    border: none;
+    color: rgba(255, 255, 255, 0.55);
+}  
+
 
 .brands-sub {
     border-radius: 25px;
@@ -163,7 +196,7 @@ footer {
 .ilustratin {
     background-image: url("images/ilust.png");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right top;
 
 }
 
@@ -226,21 +259,24 @@ footer {
 }
 
 .folder {
-    margin-left: 12px;
-    margin-bottom: 33px;
+    /* margin-left: 12px;
+    margin-bottom: 33px; */
+    display: block;
 }
 
 .like {
-    margin-left: 33px;
-    margin-bottom: 33px;
+    /* margin-left: 33px;
+    margin-bottom: 33px; */
+    display: block;
 }
 
 .pop-tool-list {
     display: flex;
-    padding-left: 0px;
     flex-wrap: wrap;
+    padding-left: 0px;
     gap: 24px;
     margin-bottom: 200px;
+
 }
 
 .explore-more-button {
@@ -317,6 +353,13 @@ body {
     text-align: center;
 }
 
+
+.card-img {
+    width: 64px;
+    height: 64px;
+    margin-right: 30px;
+}
+
 .card-title {
     color: rgba(255, 255, 255, 0.78);
     font-family: "Poppins";
@@ -325,6 +368,7 @@ body {
     line-height: 36px;
     display: flex;
     flex-wrap: wrap;
+    margin: 0px;
 }
 
 .email-center {
@@ -338,6 +382,7 @@ body {
     font-size: 24px;
     font-weight: 500;
     line-height: 36px;
+    
 }
 
 .card-par {
@@ -375,24 +420,34 @@ body {
 }
 
 .newcomer-tools {
+    gap: 24px;
     display: flex;
     flex-wrap: wrap;
     list-style: none;
     margin-bottom: 200px;
+    padding-left: 0px;
 }
 
 .newcomer-tools-item {
-    width: 392px;
-    height: 294px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 21px 21px;
+    width: 288px;
+    height: 284px;
     margin-bottom: 50px;
+    outline: red 1px solid;
 }
 
+
+
 .pop-tool-item {
+    padding: 33px 33px;
     outline: #ff6e30 0.1px solid;
     width: 392px;
     height: 334px;
     list-style: none;
-
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .mainn-para {
@@ -440,6 +495,9 @@ body {
     font-family: "Poppins";
     font-size: 20px;
     font-weight: 500;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
     margin-top: 20px;
 }
 
@@ -455,6 +513,11 @@ body {
     font-family: "Poppins";
     font-size: 16px;
     font-weight: 500;
+}
+
+
+.tel {
+    margin-bottom: 20px;
 }
 
 .footer-link {
