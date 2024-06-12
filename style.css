@@ -93,7 +93,7 @@ top: 38px; */
     justify-content: space-between;
 }
 
-.card-immg{
+.card-immg {
     display: block;
 }
 
@@ -105,11 +105,11 @@ top: 38px; */
 }
 
 
-.card-actions-2{
+.card-actions-2 {
     gap: 20px;
-display: flex;
-align-items: center;
-outline: #ff6e30 solid 1px;
+    display: flex;
+    align-items: center;
+    outline: #ff6e30 solid 1px;
 }
 
 .visit-button {
@@ -122,15 +122,15 @@ outline: #ff6e30 solid 1px;
     color: rgba(255, 255, 255, 0.55);
 }
 
-.visit-button-2{
-  width: 106px;
+.visit-button-2 {
+    width: 106px;
     height: 42px;
     margin-left: 50px;
     border-radius: 8px;
     background-color: #1e252b;
     border: none;
     color: rgba(255, 255, 255, 0.55);
-}  
+}
 
 
 .brands-sub {
@@ -382,7 +382,7 @@ body {
     font-size: 24px;
     font-weight: 500;
     line-height: 36px;
-    
+
 }
 
 .card-par {
@@ -419,48 +419,48 @@ body {
 
 }
 
-.work-des{
+.work-des {
     display: flex;
     flex-wrap: wrap;
     letter-spacing: 1.5%;
     line-height: 30px;
-color: rgba(255, 255, 255, 0.78);
-font-family: "Roboto";
-font-size: 14px;
-font-weight: 400;
+    color: rgba(255, 255, 255, 0.78);
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
 }
 
-.lanes{
+.lanes {
     list-style: none;
     display: flex;
     gap: 18px;
     justify-content: center;
 }
 
-.not-active-lane{
+.not-active-lane {
     width: 44px;
     height: 8px;
     border-radius: 4px;
     background: rgb(40, 48, 54);
 }
 
-.active-lane{
+.active-lane {
     width: 44px;
     height: 8px;
     border-radius: 4px;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-background: rgb(255, 110, 48); 
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(255, 110, 48);
 }
 
-.blur{
+.blur {
     position: absolute;
     margin-left: 317px;
     top: 3872px;
-/*    */
-padding: 10px 22px;
+    /*    */
+    padding: 10px 22px;
     border-radius: 8px;
-backdrop-filter: blur(50px);
-background: rgba(40, 48, 54, 0.2);
+    backdrop-filter: blur(50px);
+    background: rgba(40, 48, 54, 0.2);
 }
 
 .newcomer-tools {
@@ -525,24 +525,24 @@ background: rgba(40, 48, 54, 0.2);
     font-family: "Poppins";
     font-size: 16px;
     font-weight: 400;
-    
+
 }
 
-.che-left{
-position: absolute;
-box-sizing: border-box;
-top: 3700px;
-}
-
-.chr-right{
+.che-left {
     position: absolute;
-width: 12px;
-height: 24px;
-margin-left: 1100px;
-top: 3700px;
+    box-sizing: border-box;
+    top: 3700px;
 }
 
-.chevrons{
+.chr-right {
+    position: absolute;
+    width: 12px;
+    height: 24px;
+    margin-left: 1100px;
+    top: 3700px;
+}
+
+.chevrons {
     list-style: none;
 }
 
@@ -611,7 +611,7 @@ top: 3700px;
 .antools-f {
     display: flex;
     flex-wrap: wrap;
-    
+
 }
 
 .container {
