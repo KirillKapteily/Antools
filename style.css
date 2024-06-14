@@ -448,8 +448,8 @@ body {
     width: 44px;
     height: 8px;
     border-radius: 4px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    background: rgb(255, 110, 48);
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background: var(--accent-color);
 }
 
 .blur {
@@ -496,7 +496,7 @@ body {
 
 .mainn-para {
     text-align: center;
-    color: rgba(255, 255, 255, 0.55);
+    color: #ffffff8c;
     font-family: "Poppins";
     font-size: 18px;
     font-weight: 500;
@@ -513,15 +513,23 @@ body {
     text-align: center;
 }
 
+.header-che{
+    width: 9px;
+height: 4.5px;
+display: flex;
+align-items: center;
+
+}
+
 .name {
-    color: rgba(255, 253, 253, 0.78);
+    color: #fffdfdc7;
     font-family: "Poppins";
     font-size: 26px;
     font-weight: 500;
 }
 
 .worker {
-    color: rgba(255, 253, 253, 0.55);
+    color: #fffdfd8c;
     font-family: "Poppins";
     font-size: 16px;
     font-weight: 400;
