@@ -10,7 +10,7 @@ header {
     display: flex;
 }
 
-.hrf{
+.hrf {
     border: 0.5px solid rgba(255, 255, 255, 0.15);
     margin-top: 240px;
 }
@@ -34,7 +34,7 @@ header {
     list-style: none;
     text-decoration: none;
     padding-right: 7px;
-    
+
 }
 
 .header-list {
@@ -83,15 +83,15 @@ header {
     margin: 0 auto;
 }
 
-.load-more-button:hover{
+.load-more-button:hover {
     background-color: var(--input-color);
     cursor: pointer;
 }
 
-.roland{
+.roland {
     background-image: url("images/circle.png");
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: center;
 }
 
 .header-nav {
@@ -128,12 +128,12 @@ header {
     color: rgba(255, 255, 255, 0.55);
 }
 
-.visit-button:hover{
+.visit-button:hover {
     background-color: var(--accent-color);
     cursor: pointer;
 }
 
-.search{
+.search {
     position: absolute;
     padding: 20px;
 }
@@ -148,7 +148,7 @@ header {
     color: rgba(255, 255, 255, 0.55);
 }
 
-.visit-button-2:hover{
+.visit-button-2:hover {
     background-color: var(--accent-color);
     cursor: pointer;
 }
@@ -156,44 +156,44 @@ header {
 
 .like::before,
 .like::after {
-  content: "";
- width: 30px;
- height: 30px;
-  background-size: cover;
-  border-radius: 4px;
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    border-radius: 4px;
 }
 
 .like::after {
-  background-image: url(images/like.png);
-  background-size: 30px;
-  background-repeat: no-repeat;
+    background-image: url(images/like.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
 }
 
 .like::after {
-  display: flex;
-  background-color: var(--our-command-substrate);
-  background-size: 30px;
+    display: flex;
+    background-color: var(--our-command-substrate);
+    background-size: 30px;
 }
 
 .like::before:hover,
 .like::after {
-  content: "";
- width: 30px;
- height: 30px;
-  background-size: cover;
-  border-radius: 4px;
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    border-radius: 4px;
 }
 
 .like::after {
-  background-image: url(images/like.png);
-  background-size: 30px;
-  background-repeat: no-repeat;
+    background-image: url(images/like.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
 }
 
 .like::after {
-  display: flex;
-  background-color: var(--our-command-substrate);
-  background-size: 30px;
+    display: flex;
+    background-color: var(--our-command-substrate);
+    background-size: 30px;
 }
 
 
@@ -218,7 +218,7 @@ header {
     color: white;
 }
 
-.search-button:hover{
+.search-button:hover {
     background-color: var(--btn-hover-color);
     cursor: pointer;
 }
@@ -262,7 +262,7 @@ footer {
     align-items: center;
 }
 
-.joinus-button:hover{
+.joinus-button:hover {
     background-color: var(--btn-hover-color);
     cursor: pointer;
 }
@@ -286,7 +286,7 @@ footer {
     background: var(--accent-color);
 }
 
-.sign-up:hover{
+.sign-up:hover {
     background-color: var(--btn-hover-color);
     cursor: pointer;
 }
@@ -309,7 +309,7 @@ footer {
     letter-spacing: 0%;
 }
 
-.login:hover{
+.login:hover {
     background-color: var(--input-color);
     cursor: pointer;
 }
@@ -349,14 +349,14 @@ footer {
 
 .like {
     display: block;
-    
+
 }
 
-.like:hover{
-background-image: url("images/redlike.png");
-background-repeat:no-repeat ;
-background-size: 29px;
-background-position: center;
+.like:hover {
+    background-image: url("images/redlike.png");
+    background-repeat: no-repeat;
+    background-size: 29px;
+    background-position: center;
 }
 
 .pop-tool-list {
@@ -380,7 +380,7 @@ background-position: center;
     background-color: var(--accent-color);
 }
 
-.explore-more-button:hover{
+.explore-more-button:hover {
     background-color: var(--btn-hover-color);
     cursor: pointer;
 }
@@ -449,7 +449,7 @@ body {
     text-align: center;
 }
 
-main{
+main {
     margin-bottom: 240px;
 }
 
@@ -481,7 +481,7 @@ main{
     font-size: 24px;
     font-weight: 500;
     line-height: 36px;
-margin-top: 0px;
+    margin-top: 0px;
 }
 
 .card-par {
@@ -561,7 +561,7 @@ margin-top: 0px;
     background: rgba(40, 48, 54, 0.2);
 }
 
-.box-new{
+.box-new {
     /* width: 427px; */
     margin-top: 100px;
 }
@@ -572,22 +572,22 @@ margin-top: 0px;
     flex-wrap: wrap;
     list-style: none;
     margin-bottom: 200px;
-    padding-left: 0px;  
-    
+    padding-left: 0px;
+
 }
 
-.che-down{
+.che-down {
     width: 9px;
-height: 4.5px;
-margin-left: 7px;
-margin-bottom: 2px;
+    height: 4.5px;
+    margin-left: 7px;
+    margin-bottom: 2px;
 }
 
-.newcomer-tools-item:hover{
+.newcomer-tools-item:hover {
     background-color: var(--input-color);
-backdrop-filter: blur(50px);
-background-image: url("images/hoveritemnew.png");
-background-repeat:no-repeat ;
+    backdrop-filter: blur(50px);
+    background-image: url("images/hoveritemnew.png");
+    background-repeat: no-repeat;
 }
 
 .newcomer-tools-item {
@@ -602,12 +602,12 @@ background-repeat:no-repeat ;
     /* outline: red 1px solid; */
 }
 
-.newcomer-section{
+.newcomer-section {
     display: flex;
     justify-content: space-between;
 }
 
-.box{
+.box {
     width: 600px;
     display: flex;
     flex-wrap: wrap;
@@ -626,11 +626,11 @@ background-repeat:no-repeat ;
     border-radius: 15px;
 }
 
-.pop-tool-item:hover{
-background-color: var(--input-color);
-backdrop-filter: blur(50px);
-background-image: url("images/hoveritem.png");
-background-repeat:no-repeat ;
+.pop-tool-item:hover {
+    background-color: var(--input-color);
+    backdrop-filter: blur(50px);
+    background-image: url("images/hoveritem.png");
+    background-repeat: no-repeat;
 }
 
 .mainn-para {
@@ -643,7 +643,7 @@ background-repeat:no-repeat ;
     margin-bottom: 90px;
 }
 
-.pord-info{
+.pord-info {
     color: rgba(255, 255, 255, 0.78);
     font-family: "Poppins";
     font-size: 24px;
@@ -660,11 +660,11 @@ background-repeat:no-repeat ;
     text-align: center;
 }
 
-.header-che{
+.header-che {
     width: 9px;
-height: 4.5px;
-display: flex;
-align-items: center;
+    height: 4.5px;
+    display: flex;
+    align-items: center;
 
 }
 
@@ -675,7 +675,7 @@ align-items: center;
     font-weight: 500;
 }
 
-.workers{
+.workers {
     background-image: url("images/ll.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -741,7 +741,7 @@ align-items: center;
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 25px;
-    
+
 }
 
 
@@ -750,7 +750,7 @@ align-items: center;
     margin-bottom: 20px;
 }
 
-footer{
+footer {
     padding-top: 25px;
 }
 
@@ -762,7 +762,7 @@ footer{
     text-decoration: none;
 }
 
-.footer-listt{
+.footer-listt {
     list-style: none;
     margin-top: 20px;
     gap: 115px;
@@ -781,14 +781,14 @@ footer{
     margin-right: 156px;
 }
 
-.footer-item{
+.footer-item {
     margin-bottom: 25px;
 }
 
 .antools-f {
     display: flex;
     flex-wrap: wrap;
-margin-bottom: 21px;
+    margin-bottom: 21px;
 
 }
 
