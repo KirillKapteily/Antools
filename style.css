@@ -9,6 +9,11 @@ header {
     display: flex;
 }
 
+.hrf{
+    border: 0.5px solid rgba(255, 255, 255, 0.15);
+    margin-top: 240px;
+}
+
 .antools {
     color: rgba(255, 255, 255, 0.9);
     font-family: "Poppins";
@@ -119,6 +124,11 @@ header {
     background-color: var(--accent-color);
 }
 
+.search{
+    position: absolute;
+    padding: 20px;
+}
+
 .visit-button-2 {
     width: 106px;
     height: 42px;
@@ -218,6 +228,7 @@ header {
 }
 
 .header-input {
+    padding-left: 55px;
     width: 497.66px;
     height: 64px;
     background-color: var(--input-color);
@@ -227,7 +238,6 @@ header {
 }
 
 footer {
-    margin-top: 240px;
     display: flex;
 }
 
@@ -421,6 +431,9 @@ body {
     text-align: center;
 }
 
+main{
+    margin-bottom: 240px;
+}
 
 .card-img {
     width: 64px;
@@ -530,6 +543,10 @@ margin-top: 0px;
     background: rgba(40, 48, 54, 0.2);
 }
 
+.box-new{
+    /* width: 427px; */
+}
+
 .newcomer-tools {
     gap: 24px;
     display: flex;
@@ -559,11 +576,17 @@ background-repeat:no-repeat ;
     outline: red 1px solid;
 }
 
-/* .box{
-    width: 600px;
+.newcomer-section{
     display: flex;
-    justify-content: center;
-} */
+    justify-content: space-between;
+}
+
+.box{
+    /* width: 600px; */
+    display: flex;
+    flex-wrap: wrap;
+    
+}
 
 .pop-tool-item {
     padding: 33px 33px;
@@ -690,7 +713,6 @@ align-items: center;
     font-family: "Poppins";
     font-size: 16px;
     font-weight: 500;
-    
     margin-bottom: 21px;
 }
 
