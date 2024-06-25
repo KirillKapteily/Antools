@@ -619,7 +619,7 @@ main {
     padding: 33px 33px;
     /* outline: #ff6e30 0.1px solid; */
     width: 392px;
-    height: 334px;
+    height: 294px;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -692,7 +692,7 @@ main {
 .che-left {
     position: absolute;
     box-sizing: border-box;
-    top: 4000px;
+    top: 3900px;
 }
 
 .chr-right {
@@ -700,7 +700,7 @@ main {
     width: 12px;
     height: 24px;
     margin-left: 1100px;
-    top: 4000px;
+    top: 3900px;
 }
 
 .chevrons {
