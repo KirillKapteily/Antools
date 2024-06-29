@@ -81,6 +81,7 @@ header {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .load-more-button:hover {
@@ -107,7 +108,6 @@ header {
     display: flex;
     gap: 20px;
     align-items: center;
-    /* outline: #ff6e30 solid 1px; */
 }
 
 
@@ -115,7 +115,6 @@ header {
     gap: 20px;
     display: flex;
     align-items: center;
-    /* outline: #ff6e30 solid 1px; */
 }
 
 .visit-button {
@@ -126,6 +125,7 @@ header {
     background-color: #1e252b;
     border: none;
     color: rgba(255, 255, 255, 0.55);
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .visit-button:hover {
@@ -136,6 +136,7 @@ header {
 .search {
     position: absolute;
     padding: 20px;
+    
 }
 
 .visit-button-2 {
@@ -146,6 +147,7 @@ header {
     background-color: #1e252b;
     border: none;
     color: rgba(255, 255, 255, 0.55);
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .visit-button-2:hover {
@@ -182,6 +184,7 @@ header {
     height: 30px;
     background-size: cover;
     border-radius: 4px;
+    
 }
 
 .like::after {
@@ -194,6 +197,7 @@ header {
     display: flex;
     background-color: var(--our-command-substrate);
     background-size: 30px;
+    
 }
 
 
@@ -216,6 +220,7 @@ header {
     border-color: var(--accent-color);
     background-color: var(--accent-color);
     color: white;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .search-button:hover {
@@ -260,6 +265,7 @@ footer {
     background-color: var(--accent-color);
     color: white;
     align-items: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .joinus-button:hover {
@@ -284,6 +290,7 @@ footer {
     font-weight: 600;
     border-radius: 8px;
     background: var(--accent-color);
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .sign-up:hover {
@@ -307,11 +314,20 @@ footer {
     font-weight: 600;
     line-height: 24px;
     letter-spacing: 0%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .login:hover {
     background-color: var(--input-color);
     cursor: pointer;
+}
+
+.main-item{
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.main-item:hover{
+   transform: scale(1.1);
 }
 
 .main-title {
@@ -378,6 +394,7 @@ footer {
     font-weight: 500;
     border-radius: 8px;
     background-color: var(--accent-color);
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .explore-more-button:hover {
@@ -562,7 +579,6 @@ main {
 }
 
 .box-new {
-    /* width: 427px; */
     margin-top: 100px;
 }
 
@@ -588,18 +604,19 @@ main {
     backdrop-filter: blur(50px);
     background-image: url("images/hoveritemnew.png");
     background-repeat: no-repeat;
+    transform: scale(1.1);
 }
 
 .newcomer-tools-item {
     display: flex;
     flex-wrap: wrap;
     margin-top: 0px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
     padding: 21px 21px;
     width: 288px;
     height: 284px;
     border-radius: 15px;
     margin-bottom: 50px;
-    /* outline: red 1px solid; */
 }
 
 .newcomer-section {
@@ -617,13 +634,13 @@ main {
 
 .pop-tool-item {
     padding: 33px 33px;
-    /* outline: #ff6e30 0.1px solid; */
     width: 392px;
     height: 294px;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     border-radius: 15px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .pop-tool-item:hover {
@@ -631,6 +648,7 @@ main {
     backdrop-filter: blur(50px);
     background-image: url("images/hoveritem.png");
     background-repeat: no-repeat;
+    transform: scale(1.1);
 }
 
 .mainn-para {
@@ -693,6 +711,7 @@ main {
     position: absolute;
     box-sizing: border-box;
     top: 3900px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .chr-right {
@@ -701,6 +720,7 @@ main {
     height: 24px;
     margin-left: 1100px;
     top: 3900px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .chevrons {
@@ -789,11 +809,10 @@ footer {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 21px;
-
 }
+
 
 .container {
     width: 1224px;
     margin: 0 auto;
-    /* outline: solid red; */
 }
