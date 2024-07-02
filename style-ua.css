@@ -345,7 +345,7 @@ footer {
 
 .login {
     color: rgba(255, 255, 255, 0.78);
-    font-family: Poppins;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: var(--not-active-button);
     width: 118px;
     height: 48px;
@@ -430,7 +430,7 @@ footer {
     height: 58px;
     border: none;
     color: rgb(255, 255, 255);
-    font-family: Poppins;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-weight: 500;
     border-radius: 8px;
